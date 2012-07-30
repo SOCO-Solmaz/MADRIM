@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Patients ID" />
+    
+    <EditText 
+        android:id="@+id/et_patientID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the week number that you would like to change the PHQ-total for that!" />
+	
+    <EditText 
+        android:id="@+id/et_week"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        />
+    <TextView 
+        android:id="@+id/tv_phq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the new PHQ9-total" />
+    
+    <EditText 
+        android:id="@+id/et_phq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/btn_del_results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Results" />
+
+    <Button
+        android:id="@+id/btn_PEM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PEM" />
+    
+    <Button 
+        android:id="@+id/btn_Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit" />
+    
+</LinearLayout>
